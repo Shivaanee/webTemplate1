@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Adventure Website Design</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://use.fontawesome.com/b9f0ac4ecc.js"></script>
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/Adventure-logo.png" alt="logo"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="programs.html">PROGRAMS</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+
+            <h1>Our Stories</h1>
+        </section>
+
+        <!-- Blog page content -->
+        <section class="blog-content">
+            <div class="row">
+                <div class="blog-right border">
+                    <h3>Categories</h3>
+                    <div>
+                        <span>Duke of Edinburgh's Award</span>
+                        <span>15</span>
+                    </div>
+                    <div>
+                        <span>Staying Fit</span>
+                        <span>28</span>
+                    </div>
+                    <div>
+                        <span>Trekking</span>
+                        <span>51</span>
+                    </div>
+                    <div>
+                        <span>Water Adventures</span>
+                        <span>32</span>
+                    </div>
+                    <div>
+                        <span>Sky-diving</span>
+                        <span>38</span>
+                    </div>
+                    <div>
+                        <span>Snow Sports</span>
+                        <span>45</span>
+                    </div>
+                    <div>
+                        <span>Mental Preparedness</span>
+                        <span>17</span>
+                    </div>
+                </div>
+                <div class="blog-left">
+                    <img src="images/dofe-img1.jpg" alt="">
+                    <h2>Our Gold-Certificate Programs</h2>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                        Reprehenderit veritatis, esse illum, delectus cum enim 
+                        libero temporibus iste odio veniam eius voluptatibus labore 
+                        voluptatem tempora exercitationem est repudiandae odit? 
+                        Explicabo? voluptas aspernatur perspiciatis! Dignissimos 
+                        hic quam accusantium ex cupiditate architecto?
+                    </p>
+                    <br>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Alias quibusdam nostrum accusamus aliquid nemo dicta, 
+                        exercitationem nulla, explicabo adipisci consectetur 
+                        voluptas aspernatur perspiciatis! Dignissimos hic quam 
+                        accusantium ex cupiditate architecto? Lorem ipsum dolor 
+                        sit amet consectetur adipisicing elit. Exercitationem 
+                        eveniet voluptate ducimus nobis temporibus unde fugiat 
+                        molestias voluptates atque, nam cumque, maiores asperiores 
+                        beatae non earum officia, pariatur hic. Tempore? Lorem ipsum 
+                        dolor sit, amet consectetur adipisicing elit. Dignissimos odio 
+                        assumenda harum laudantium aliquam quasi eligendi similique 
+                        eaque minima, cum esse velit, repudiandae totam debitis ullam 
+                        illum obcaecati animi tenetur.
+                    </p>
+                    <br>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Alias quibusdam nostrum accusamus aliquid nemo dicta, 
+                        exercitationem nulla, explicabo adipisci consectetur 
+                        voluptas aspernatur perspiciatis! Dignissimos hic quam 
+                        accusantium ex cupiditate architecto? Lorem ipsum dolor 
+                        sit amet consectetur adipisicing elit. Exercitationem 
+                        eveniet voluptate ducimus nobis temporibus unde fugiat 
+                        molestias voluptates atque, nam cumque, maiores asperiores 
+                        beatae non earum officia, pariatur hic.
+                    </p>
+                    <br>
+                    <p class="border">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Alias quibusdam nostrum accusamus aliquid nemo dicta, 
+                        exercitationem nulla, explicabo adipisci consectetur 
+                        voluptas aspernatur perspiciatis! Dignissimos hic quam 
+                        eveniet voluptate ducimus nobis temporibus unde fugiat 
+                        molestias voluptates atque, nam cumque,
+                    </p>
+                    <div class="comment-box">
+                        <h3>Leave A Comment</h3>
+
+                        <form action="" class="comment-form">
+                            <input type="text" placeholder="Name">
+                            <input type="email" placeholder="Email">
+                            <textarea rows="5" placeholder="Your Comment"></textarea>
+                            <button type="submit" class="hero-btn red-btn">POST</button>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Footer -->
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quibusdam vitae et enim, nostrum, quae ut impedit omnis harum eveniet <br> corrupti rerum aspernatur quaerat laborum est deserunt magnam? Consequatur, animi!</p>
+            <div class="icons">
+                <i class="fa fa-facebook""></i>
+                <i class="fa fa-twitter""></i>
+                <i class="fa fa-instagram""></i>
+                <i class="fa fa-linkedin""></i>
+            </div>
+            <p>Made By <a href="https://www.linkedin.com/in/shivaanee-eswaran/">Nisha</a></p>
+        </section>
+
+        <!-- JavaScript for Toggle Menu -->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+    </body>
+</html>
